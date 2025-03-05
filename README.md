@@ -1,6 +1,4 @@
 # my-first-API
-
-My First API
 Este repositório contém o código fonte da minha primeira API, desenvolvida com Node.jse Express. Esta API serve como um projeto de estudo para entender os conceitos básicos de desenvolvimento de APIs RESTful e manipulação de dados em JSON.
 
 Funcionalidades
