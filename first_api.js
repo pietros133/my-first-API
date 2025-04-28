@@ -1,8 +1,12 @@
-const app = require('express')();
+const express = require('express');
+const app = express();
 
-app.listen(3000, () => console.log('server running'));
+// Rota GET simples
+app.get('/skills', (req, res) => {
+    res.send('Minhas habilidades: PHP, SQL, MySQL, Git, GitHub, Flask, Django, Java e C#');
+});
 
-app.get('/skills', (req, res)=> {
-    res.send('Primeira API teste');
-    
-})
+// Iniciar o servidor
+app.listen(3000, () => {
+    console.log('Servidor rodando na porta 3000');
+});
